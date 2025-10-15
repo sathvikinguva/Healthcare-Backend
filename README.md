@@ -1,9 +1,8 @@
-<<<<<<< HEAD
 # Healthcare Backend API
 
 A comprehensive Django REST Framework-based backend system for healthcare applications with JWT authentication, patient management, doctor management, and patient-doctor mapping functionality.
 
-## 🚀 Features
+## Features
 
 - **User Authentication**: JWT-based authentication with access and refresh tokens
 - **Patient Management**: Full CRUD operations for patient records
@@ -14,13 +13,13 @@ A comprehensive Django REST Framework-based backend system for healthcare applic
 - **PostgreSQL Integration**: Robust database backend
 - **Comprehensive Documentation**: API documentation and Postman collection
 
-## 📋 Requirements
+## Requirements
 
 - Python 3.8+
 - PostgreSQL 12+
 - pip (Python package installer)
 
-## ⚡ Quick Start
+## Quick Start
 
 ### 1. Clone the Repository
 ```bash
@@ -106,7 +105,7 @@ http://localhost:8000/api/
 - `GET /mappings/{patient_id}/` - Get patient's doctors
 - `DELETE /mappings/remove/{mapping_id}/` - Remove doctor assignment
 
-## 🔐 Authentication
+## Authentication
 
 The API uses JWT (JSON Web Tokens) for authentication. Include the access token in the Authorization header:
 
@@ -114,7 +113,7 @@ The API uses JWT (JSON Web Tokens) for authentication. Include the access token 
 Authorization: Bearer <access_token>
 ```
 
-## 📝 Example Usage
+## Example Usage
 
 ### 1. Register a User
 ```bash
@@ -154,7 +153,7 @@ curl -X POST http://localhost:8000/api/patients/ \
   }'
 ```
 
-## 🧪 Testing with Postman
+## Testing with Postman
 
 1. Import the provided Postman collection: `healthcare_backend_postman_collection.json`
 2. Set the `base_url` variable to `http://localhost:8000/api`
@@ -162,7 +161,7 @@ curl -X POST http://localhost:8000/api/patients/ \
 4. Set the `access_token` variable with the received token
 5. Test all endpoints using the pre-configured requests
 
-## 📊 Data Models
+## Data Models
 
 ### User
 - Custom user model with email-based authentication
@@ -183,7 +182,7 @@ curl -X POST http://localhost:8000/api/patients/ \
 - Fields: patient, doctor, assigned_date, notes, is_active
 - Unique constraint on patient-doctor combination
 
-## 🔒 Security Features
+## Security Features
 
 - JWT authentication with access and refresh tokens
 - Password validation and encryption
@@ -192,7 +191,7 @@ curl -X POST http://localhost:8000/api/patients/ \
 - CORS configuration for frontend integration
 - Proper error handling without sensitive data exposure
 
-## 🛠️ Development
+## Development
 
 ### Project Structure
 ```
@@ -218,7 +217,7 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
-## 🌐 Production Deployment
+## Production Deployment
 
 For production deployment:
 
@@ -230,21 +229,13 @@ For production deployment:
 6. Configure SSL/HTTPS
 7. Set up proper logging and monitoring
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
 3. Make your changes
 4. Add tests if applicable
 5. Submit a pull request
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
-## 📞 Support
-
-For support and questions, please create an issue in the repository or contact the development team.
 
 ---
 
