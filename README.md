@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Healthcare Backend API
 
 A comprehensive Django REST Framework-based backend system for healthcare applications with JWT authentication, patient management, doctor management, and patient-doctor mapping functionality.
@@ -248,3 +249,6 @@ For support and questions, please create an issue in the repository or contact t
 ---
 
 **Happy Coding! 🚀**
+=======
+# Healthcare-Backend
+>>>>>>> 2293a39e975cd086b87e4edb409fa8a54bcfcc9a
