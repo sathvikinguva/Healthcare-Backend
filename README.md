@@ -236,10 +236,3 @@ For production deployment:
 3. Make your changes
 4. Add tests if applicable
 5. Submit a pull request
-
----
-
-**Happy Coding! 🚀**
-=======
-# Healthcare-Backend
->>>>>>> 2293a39e975cd086b87e4edb409fa8a54bcfcc9a
